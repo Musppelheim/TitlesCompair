@@ -43,3 +43,6 @@ out/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+
+# Exclude YandexMailCredentials.java
+src/test/java/MailCredentials.java

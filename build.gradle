@@ -16,6 +16,8 @@ repositories {
 
 dependencies {
     implementation 'com.codeborne:selenide:6.12.3'
+    implementation 'junit:junit:4.13.2'
+    implementation 'org.junit:junit-gradle:5.0.0-ALPHA'
     testImplementation  'org.junit.jupiter:junit-jupiter:5.6.2'
     testImplementation 'com.codeborne:selenide:5.11.1'
     testImplementation 'io.github.bonigarcia:webdrivermanager:4.4.3'
@@ -23,7 +25,4 @@ dependencies {
 
 test {
     useJUnitPlatform()
-
-    System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
-
 }

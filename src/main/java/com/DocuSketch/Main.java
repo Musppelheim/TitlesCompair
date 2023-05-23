@@ -5,7 +5,7 @@ import com.codeborne.selenide.Selenide;
 public class Main {
     public static void main(String[] args) {
         // Открывается веб-сайт
-        Selenide.open("https://www.euronews.com");
+        Selenide.open("");
 
         // получает title сайта
         String pageTitle = Selenide.title();
