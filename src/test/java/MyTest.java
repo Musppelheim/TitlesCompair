@@ -1,5 +1,7 @@
+import com.codeborne.selenide.Selectors;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
+import java.time.Duration;
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -7,32 +9,36 @@ public class MyTest {
 
     @Test
     void myTest() {
-        // Открывается Yandex mail login page
+        //Step 1: Открытие Yandex Mail страницы для входа
+        openLoginPage();
+
+        // Step 2:  Ввод учетных данных и выполнение входа на почту
+        loginToMail(MailCredentials.USERNAME, MailCredentials.PASSWORD);
+
+        // Step 3: Проверка заголовка страницы
+        assertPageTitle("Авторизация");
+
+        //Step 4: Проверка видимости всех полей ввода на странице
+        checkAllInputFieldsVisible();
+
+    }
+
+    private void openLoginPage() {
         open("https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fmail.yandex.ru");
+    }
 
-        //Введите свои учетные данные и выполнить вход на почту
-        $("#passp-field-login").setValue(MailCredentials.USERNAME);
-        $(By.cssSelector(".Button2_type_submit")).click();
+    private void loginToMail(String username, String password) {
+        $(Selectors.byXpath("//input[@id='passp-field-login']")).setValue(MailCredentials.USERNAME).submit();
+        $(Selectors.byXpath("//input[@id='passp-field-passwd']")).setValue(MailCredentials.PASSWORD).submit();
+    }
 
-        $("#passp-field-passwd").setValue(MailCredentials.PASSWORD);
-        $(By.cssSelector(".Button2_type_submit")).click();
+    private void assertPageTitle(String expectedTitle) {
+        String actualTitle = title();
+        assertEquals("Авторизация", actualTitle);
+    }
 
-        // получает title сайта
-        String pageTitle = title();
-        // получает title сайта в DevTools
-        String devToolsTitle = executeJavaScript("return document.title");
-
-        assertEquals(pageTitle, devToolsTitle);
-
-        String expectedTitle = "Авторизация";
-
-        // проверяет чтобы titles совпадали
-        if (pageTitle.equals(expectedTitle)) {
-            // Titles match
-            System.out.println("Titles match!");
-        } else {
-            // Titles don't match
-            System.out.println("Titles do not match.");
-        }
+    private void checkAllInputFieldsVisible() {
+        $(Selectors.byXpath("//input")).shouldBe(visible, Duration.ofSeconds(10));
     }
 }
+
