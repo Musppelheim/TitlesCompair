@@ -44,5 +44,5 @@ out/
 !**/src/main/**
 !**/src/test/**
 
-# Exclude YandexMailCredentials.java
+# Exclude OutlookMailCredentials.java
 src/test/java/MailCredentials.java

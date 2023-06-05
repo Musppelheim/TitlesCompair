@@ -10,6 +10,7 @@ This repository contains an autotest script written in Java using the Selenide f
 ## Prerequisites
 To run this autotest, you need to have the following installed:
 - Java Development Kit (JDK) version 11 or later
+- Gradle version 8.1.1 or later
 
 ## Test Data
 The test uses predefined values for the username and password, which are stored in the MailCredentials class. Please ensure that the provided credentials are valid for the test to execute successfully.
