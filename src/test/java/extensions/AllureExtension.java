@@ -12,10 +12,10 @@ public class AllureExtension implements TestWatcher {
 
     @Override
     public void testFailed(ExtensionContext context, Throwable cause){
-        captureScreennshot();
+        captureScreenshot();
     }
 
-    private void captureScreennshot() {
+    private void captureScreenshot() {
         byte[] screenshot = Selenide.screenshot(OutputType.BYTES);
         Allure.addAttachment("Screenshot", new ByteArrayInputStream(screenshot));
     }
