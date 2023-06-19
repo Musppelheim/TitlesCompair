@@ -48,5 +48,5 @@ out/
 src/test/java/MailCredentials.java
 
 ### Allure ###
-allure/
-.allure-results/
+.allure/
+allure-results/
