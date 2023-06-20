@@ -46,7 +46,7 @@ out/
 
 # Exclude OutlookMailCredentials.java
 src/test/java/MailCredentials.java
+src/test/java/GoogleCredentials.java
 
-### Allure ###
 .allure/
-allure-results/
+allure-results/git
