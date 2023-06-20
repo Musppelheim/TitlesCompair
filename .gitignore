@@ -50,3 +50,4 @@ src/test/java/GoogleCredentials.java
 
 .allure/
 allure-results/git
+allure-results
