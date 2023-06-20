@@ -2,7 +2,6 @@ package com.DocuSketch.Main;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.WebDriverRunner;
 import io.qameta.allure.Step;
 
 import java.time.LocalDate;
@@ -32,12 +31,6 @@ public class GoogleSteps {
         googleDocs.shouldBe(Condition.visible).click();
         switchTo().defaultContent();
         back();
-    }
-
-    @Step("Switch back to the HomePage")
-    public static void switchBackToHomePage() {
-        String homePage = WebDriverRunner.getWebDriver().getWindowHandle();
-        switchTo().window(homePage);
     }
 
     @Step("Select News from Apps")

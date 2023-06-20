@@ -27,7 +27,6 @@ public class GoogleTest {
         openGooglePage();
         clickGoogleAppsButton();
         selectGoogleDocs();
-        switchBackToHomePage();
         selectGoogleNews();
         getDateFromGoogleNews();
     }
