@@ -17,3 +17,121 @@
 2023-06-28 20:38:20.974 [Test worker] INFO  OutlookTest - Running Outlook Test
 2023-06-28 20:38:41.048 [Test worker] INFO  OutlookTest - Outlook Test completed
 2023-06-28 20:38:41.864 [Test worker] INFO  OutlookTest - Closing the WebDriver
+2023-06-28 21:19:09.422 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-28 21:19:09.450 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-28 21:19:27.312 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-28 21:37:15.914 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-28 21:37:15.932 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-28 21:37:32.434 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-28 21:44:12.001 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-28 21:44:12.024 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-28 21:44:25.710 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-28 22:10:49.645 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-28 22:10:49.669 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-28 22:11:06.833 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-28 22:54:19.238 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-28 22:54:19.274 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-28 22:54:36.113 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-28 23:09:09.227 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-28 23:09:09.256 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-28 23:09:26.570 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-28 23:13:41.271 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-28 23:13:41.296 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-28 23:14:03.833 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-28 23:33:51.270 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-28 23:33:51.297 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-28 23:34:05.450 [Test worker] INFO  GoogleTest - Google Test completed
+2023-06-28 23:34:06.226 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-28 23:36:12.955 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-28 23:36:12.981 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-28 23:36:34.062 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-28 23:39:26.845 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-28 23:39:26.887 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-28 23:39:47.119 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-28 23:41:58.188 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-28 23:41:58.208 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-28 23:42:20.713 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-28 23:47:29.081 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-28 23:47:29.095 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-28 23:47:53.617 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-28 23:54:10.725 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-28 23:54:10.744 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-28 23:54:37.077 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 10:06:33.444 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 10:06:33.455 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 10:06:56.864 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 10:36:09.833 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 10:36:09.861 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 10:36:41.807 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 11:31:01.684 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 11:31:01.699 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 11:31:24.678 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 11:59:52.629 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 11:59:52.665 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 12:00:25.223 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 12:05:30.120 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 12:05:30.141 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 12:06:11.843 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 12:08:40.737 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 12:08:40.760 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 12:09:07.511 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 12:11:02.623 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 12:11:02.652 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 12:11:25.897 [Test worker] INFO  GoogleTest - Google Test completed
+2023-06-29 12:11:27.281 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 12:33:11.006 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 12:33:11.029 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 12:33:39.845 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 12:36:31.764 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 12:36:31.794 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 12:37:02.974 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 12:38:58.576 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 12:38:58.600 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 12:39:35.343 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 12:55:23.131 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 12:55:23.172 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 12:55:43.376 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 12:59:58.364 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 12:59:58.386 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 13:00:14.223 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 13:03:09.829 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 13:03:09.841 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 13:03:28.867 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 13:12:15.526 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 13:12:15.539 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 13:12:36.981 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 13:24:52.441 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 13:24:52.459 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 13:25:10.112 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 13:34:41.768 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 13:34:41.797 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 13:35:03.712 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 13:50:36.322 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 13:50:36.353 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 13:50:54.045 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 13:56:03.033 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 13:56:03.053 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 13:56:21.123 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 14:02:25.836 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 14:02:25.855 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 14:02:41.635 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 14:04:18.558 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 14:04:18.573 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 14:04:35.074 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 14:08:34.087 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 14:08:34.110 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 14:08:54.857 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 14:10:04.225 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 14:10:04.246 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 14:10:21.130 [Test worker] INFO  GoogleTest - Google Test completed
+2023-06-29 14:10:21.929 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 14:59:19.854 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 14:59:19.873 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 14:59:39.225 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 15:04:21.121 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 15:04:21.138 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 15:04:43.858 [Test worker] INFO  GoogleTest - Closing the WebDriver
+2023-06-29 15:24:22.743 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-06-29 15:24:22.757 [Test worker] INFO  GoogleTest - Running Google Test
+2023-06-29 15:24:43.650 [Test worker] INFO  GoogleTest - Google Test completed
+2023-06-29 15:24:44.518 [Test worker] INFO  GoogleTest - Closing the WebDriver

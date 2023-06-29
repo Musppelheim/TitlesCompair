@@ -18,4 +18,6 @@ public class GoogleLocator {
 
     public static final SelenideElement dateFromGoogleNews = $(byXpath("//div[@class='Hp1DDd oBu3Fe' and @role='doc-subtitle']"));
 
+    public static final SelenideElement findElement = $(byXpath("//*[@id=\"gb\"]/div[2]"));
+
 }

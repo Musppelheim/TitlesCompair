@@ -11,12 +11,14 @@ import java.io.ByteArrayInputStream;
 public class AllureExtension implements TestWatcher {
 
     @Override
-    public void testFailed(ExtensionContext context, Throwable cause){
+    public void testFailed(ExtensionContext context, Throwable cause) {
         captureScreenshot();
     }
 
     private void captureScreenshot() {
         byte[] screenshot = Selenide.screenshot(OutputType.BYTES);
-        Allure.addAttachment("Screenshot", new ByteArrayInputStream(screenshot));
+        if (screenshot != null) {
+            Allure.addAttachment("Screenshot", new ByteArrayInputStream(screenshot));
+        }
     }
 }

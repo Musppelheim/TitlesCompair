@@ -3,6 +3,7 @@ package com.DocuSketch.Main;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Step;
+import org.openqa.selenium.Keys;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -10,7 +11,6 @@ import java.util.Locale;
 
 import static com.DocuSketch.Main.GoogleLocator.*;
 import static com.codeborne.selenide.Selenide.back;
-import static com.codeborne.selenide.Selenide.switchTo;
 
 
 public class GoogleSteps {
@@ -26,19 +26,22 @@ public class GoogleSteps {
 
     @Step("Select Docs from Apps")
     public static void selectGoogleDocs() {
-        switchTo().frame(appsMenu);
-        googleDocs.scrollIntoView(true);
-        googleDocs.shouldBe(Condition.visible).click();
-        switchTo().defaultContent();
+        appsMenu.shouldBe(Condition.visible);
+        for (int i = 0; i < 16; i++) {
+            appsMenu.sendKeys(Keys.TAB);
+        }
+        appsMenu.sendKeys(Keys.ENTER);
         back();
     }
 
     @Step("Select News from Apps")
     public static void selectGoogleNews() {
         googleAppsButton.shouldBe(Condition.visible).click();
-        switchTo().frame(appsMenu);
-        googleNews.shouldBe(Condition.visible).click();
-        switchTo().defaultContent();
+        appsMenu.shouldBe(Condition.visible);
+        for (int i = 0; i < 5; i++) {
+            appsMenu.sendKeys(Keys.TAB);
+        }
+        appsMenu.sendKeys(Keys.ENTER);
     }
 
     @Step("Get the date from Google News")
@@ -61,6 +64,10 @@ public class GoogleSteps {
         String formattedDate = date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         System.out.println(formattedDate);
 
+    }
+    @Step("capture element")
+    public static void findElement(){
+        findElement.shouldBe(Condition.visible);
     }
 
 }
