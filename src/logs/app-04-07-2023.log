@@ -1,0 +1,8 @@
+2023-07-04 13:20:38.061 [Test worker] INFO  GoogleTest - Setting up the test environment
+2023-07-04 13:20:38.147 [Test worker] INFO  GoogleTest - Running Google Test
+2023-07-04 13:21:10.580 [Test worker] INFO  GoogleTest - Google Test completed
+2023-07-04 13:21:11.909 [Test worker] INFO  GoogleTest - Closing the WebDriver
+04-07-2023 13:23:32.693 [Test worker] INFO  GoogleTest - Setting up the test environment
+04-07-2023 13:23:32.743 [Test worker] INFO  GoogleTest - Running Google Test
+04-07-2023 13:24:00.653 [Test worker] INFO  GoogleTest - Google Test completed
+04-07-2023 13:24:01.874 [Test worker] INFO  GoogleTest - Closing the WebDriver

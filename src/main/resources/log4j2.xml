@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="warn" name="MyApp" packages="">
+    <Properties>
+        <Property name="logPattern">%d{dd-MM-yyyy HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Property>
+    </Properties>
     <Appenders>
-        <File name="MyFile" fileName="src/logs/app.log">
-            <PatternLayout>
-                <pattern>%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</pattern>
-            </PatternLayout>
-        </File>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${logPattern}"/>
+        </Console>
+        <RollingFile name="RollingFileAppender" fileName="src/logs/app-${date:dd-MM-yyyy}.log"
+                     filePattern="src/logs/app-%d{dd-MM-yyyy}-%i.log">
+            <PatternLayout pattern="${logPattern}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+        </RollingFile>
     </Appenders>
     <Loggers>
         <Root level="info">
-            <AppenderRef ref="MyFile"/>
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="RollingFileAppender"/>
         </Root>
     </Loggers>
 </Configuration>
-
