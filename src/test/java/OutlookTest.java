@@ -15,7 +15,7 @@ public class OutlookTest {
     @BeforeEach
     void setUp() {
         Configuration.timeout = 5000;
-        Configuration.headless = true;
+      //  Configuration.headless = true;
         logger.info("Setting up the test environment");
     }
 

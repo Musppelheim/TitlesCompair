@@ -10,7 +10,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
 import static com.DocuSketch.Main.GoogleLocator.*;
-import static com.codeborne.selenide.Selenide.back;
 
 
 public class GoogleSteps {
@@ -24,25 +23,29 @@ public class GoogleSteps {
         googleAppsButton.shouldBe(Condition.visible).click();
     }
 
-    @Step("Select Docs from Apps")
-    public static void selectGoogleDocs() {
-        appsMenu.shouldBe(Condition.visible);
-        for (int i = 0; i < 16; i++) {
-            appsMenu.sendKeys(Keys.TAB);
-        }
-        appsMenu.sendKeys(Keys.ENTER);
-        back();
-    }
-
-    @Step("Select News from Apps")
-    public static void selectGoogleNews() {
+    @Step("Select application from Google Apps")
+    public static void selectApplication(String appName) {
         googleAppsButton.shouldBe(Condition.visible).click();
         appsMenu.shouldBe(Condition.visible);
-        for (int i = 0; i < 5; i++) {
+
+        int tabIndex = getTabIndexForApp(appName);
+        for (int i = 0; i < tabIndex; i++) {
             appsMenu.sendKeys(Keys.TAB);
         }
         appsMenu.sendKeys(Keys.ENTER);
     }
+
+    private static int getTabIndexForApp(String appName) {
+        switch (appName.toLowerCase()) {
+            case "docs":
+                return 16;
+            case "news":
+                return 5;
+            default:
+                throw new IllegalArgumentException("Unsupported app: " + appName);
+        }
+    }
+
 
     @Step("Get the date from Google News")
     public static void getDateFromGoogleNews() {
@@ -65,8 +68,9 @@ public class GoogleSteps {
         System.out.println(formattedDate);
 
     }
+
     @Step("capture element")
-    public static void findElement(){
+    public static void findElement() {
         findElement.shouldBe(Condition.visible);
     }
 
