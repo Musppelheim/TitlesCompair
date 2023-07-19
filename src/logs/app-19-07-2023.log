@@ -1,0 +1,45 @@
+19-07-2023 11:06:59.434 [Test worker] INFO  GoogleTest - Setting up the test environment
+19-07-2023 11:06:59.456 [Test worker] INFO  GoogleTest - Running Google Docs Test
+19-07-2023 11:07:17.316 [Test worker] INFO  GoogleTest - Running Google News Test
+19-07-2023 11:07:29.336 [Test worker] INFO  GoogleTest - Closing the WebDriver
+19-07-2023 11:12:56.046 [Test worker] INFO  GoogleTest - Setting up the test environment
+19-07-2023 11:12:56.064 [Test worker] INFO  GoogleTest - Running Google Docs Test
+19-07-2023 11:13:10.881 [Test worker] INFO  GoogleTest - Running Google News Test
+19-07-2023 11:13:23.105 [Test worker] INFO  GoogleTest - Closing the WebDriver
+19-07-2023 11:17:18.269 [Test worker] INFO  GoogleTest - Setting up the test environment
+19-07-2023 11:17:18.315 [Test worker] INFO  GoogleTest - Running Google Docs Test
+19-07-2023 11:17:32.365 [Test worker] INFO  GoogleTest - Running Google News Test
+19-07-2023 11:17:43.322 [Test worker] INFO  GoogleTest - Closing the WebDriver
+19-07-2023 11:18:54.299 [Test worker] INFO  GoogleTest - Setting up the test environment
+19-07-2023 11:18:54.313 [Test worker] INFO  GoogleTest - Running Google Docs Test
+19-07-2023 11:19:08.166 [Test worker] INFO  GoogleTest - Running Google News Test
+19-07-2023 11:19:18.899 [Test worker] INFO  GoogleTest - Closing the WebDriver
+19-07-2023 11:27:34.526 [Test worker] INFO  GoogleTest - Setting up the test environment
+19-07-2023 11:27:34.545 [Test worker] INFO  GoogleTest - Running Google Docs Test
+19-07-2023 11:27:45.457 [Test worker] INFO  GoogleTest - Closing the WebDriver
+19-07-2023 11:28:00.732 [Test worker] INFO  GoogleTest - Setting up the test environment
+19-07-2023 11:28:00.749 [Test worker] INFO  GoogleTest - Running Google Docs Test
+19-07-2023 11:28:14.376 [Test worker] INFO  GoogleTest - Running Google News Test
+19-07-2023 11:28:25.248 [Test worker] INFO  GoogleTest - Closing the WebDriver
+19-07-2023 11:29:15.195 [Test worker] INFO  GoogleTest - Setting up the test environment
+19-07-2023 11:29:15.210 [Test worker] INFO  GoogleTest - Running Google Docs Test
+19-07-2023 11:29:30.228 [Test worker] INFO  GoogleTest - Running Google News Test
+19-07-2023 11:29:41.697 [Test worker] INFO  GoogleTest - Closing the WebDriver
+19-07-2023 11:39:15.960 [Test worker] INFO  GoogleTest - Setting up the test environment
+19-07-2023 11:39:15.978 [Test worker] INFO  GoogleTest - Running Google Docs Test
+19-07-2023 11:39:29.251 [Test worker] INFO  GoogleTest - Running Google News Test
+19-07-2023 11:39:40.474 [Test worker] INFO  GoogleTest - Closing the WebDriver
+19-07-2023 11:50:52.108 [Test worker] INFO  GoogleTest - Setting up the test environment
+19-07-2023 11:50:52.124 [Test worker] INFO  GoogleTest - Running Google Docs Test
+19-07-2023 11:51:06.075 [Test worker] INFO  GoogleTest - Running Google News Test
+19-07-2023 11:51:17.661 [Test worker] INFO  GoogleTest - Closing the WebDriver
+19-07-2023 11:51:46.778 [Test worker] INFO  GoogleTest - Setting up the test environment
+19-07-2023 11:51:46.795 [Test worker] INFO  GoogleTest - Running Google Docs Test
+19-07-2023 11:52:00.050 [Test worker] INFO  GoogleTest - Running Google News Test
+19-07-2023 11:52:04.701 [Test worker] INFO  GoogleTest - Google Test completed
+19-07-2023 11:52:05.535 [Test worker] INFO  GoogleTest - Closing the WebDriver
+19-07-2023 11:53:41.230 [Test worker] INFO  GoogleTest - Setting up the test environment
+19-07-2023 11:53:41.250 [Test worker] INFO  GoogleTest - Running Google Docs Test
+19-07-2023 11:53:53.856 [Test worker] INFO  GoogleTest - Running Google News Test
+19-07-2023 11:53:58.427 [Test worker] INFO  GoogleTest - Google Test completed
+19-07-2023 11:53:59.437 [Test worker] INFO  GoogleTest - Closing the WebDriver

@@ -18,11 +18,6 @@ public class GoogleSteps {
         Selenide.open("https://www.google.com/?hl=en");
     }
 
-    @Step("Open Google Apps")
-    public static void clickGoogleAppsButton() {
-        googleAppsButton.shouldBe(Condition.visible).click();
-    }
-
     @Step("Select application from Google Apps")
     public static void selectApplication(String appName) {
         googleAppsButton.shouldBe(Condition.visible).click();
@@ -67,6 +62,14 @@ public class GoogleSteps {
         String formattedDate = date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         System.out.println(formattedDate);
 
+    }
+
+    @Step("Find the parent of the element containing the text 'бизнес'")
+    public static void findBusinessElement(){
+        parentElement.shouldBe(Condition.visible);
+        businessElement.shouldBe(Condition.visible).click();
+
+        // Get the parent element of the business element
     }
 
     @Step("capture element")

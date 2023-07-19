@@ -26,7 +26,7 @@ public class GoogleTest {
     @BeforeEach
     void setUp() {
         Configuration.timeout = 5000;
-        //    Configuration.headless = true;
+        Configuration.headless = true;
         Configuration.reportsFolder = "build/test-results";
         logger.info("Setting up the test environment");
     }
@@ -67,8 +67,7 @@ public class GoogleTest {
         openGooglePage();
         selectApplication("News");
         getDateFromGoogleNews();
-
-
+        findBusinessElement();
         logger.info("Google Test completed");
     }
 }
